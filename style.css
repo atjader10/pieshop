@@ -12,7 +12,15 @@ header h1 {
     background-color: #8179bd;
 }
 
-li {
+header li {
+    border: solid darkgray; 
+    display: inline; 
+    color: whitesmoke; 
+    background-color: #66d4e8;
+    margin: 50px;
+}
+
+footer li {
     border: solid darkgray; 
     display: inline; 
     color: whitesmoke; 
@@ -41,5 +49,9 @@ footer {
 }
 
 #section2 {
-    font-size: 150%;
+    font-size: 100%;
+}
+
+#secretmenu {
+    list-style-type: none;
 }
